@@ -1,0 +1,12 @@
+base_url = 'https://stellarburgers.nomoreparties.site/'
+
+get_ingredients_url = base_url + 'api/ingredients'
+create_order_url = base_url + 'api/orders'
+password_reset_url = base_url + 'api/password-reset'
+create_user_url = base_url + 'api/auth/register'
+login_user_url = base_url + 'api/auth/login'
+logout_url = base_url + 'api/auth/logout'
+token_url = base_url + 'api/auth/token'
+get_user_url = base_url + 'api/auth/user'
+get_all_orders_url = base_url + 'api/orders/all'
+get_order_user_url = base_url + 'api/orders'
