@@ -1,0 +1,7 @@
+allure_results/
+allure_report/
+reports/
+__pycache__/
+.pytest_cache/
+.idea/
+venv/
