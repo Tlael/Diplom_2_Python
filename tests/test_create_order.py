@@ -3,10 +3,11 @@ import json
 import allure
 import requests
 
-from resources.data_order import DATA_ORDER
-from resources.headers import HEADERS
-from resources.message import no_ingredients
-from resources.urls import create_order_url
+from src.data.data_order import DATA_ORDER
+from src.data.message import no_ingredients
+
+from src.api.headers import HEADERS
+from src.api.urls import create_order_url
 
 
 class TestCreateOrders:

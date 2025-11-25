@@ -3,11 +3,12 @@ import json
 import allure
 import requests
 
-from resources.create_new_user import register_new_user_and_return_response
-from resources.data_user import DATA
-from resources.headers import HEADERS
-from resources.message import user_already_exists, not_enough_data
-from resources.urls import create_user_url
+from src.data.data_user import DATA
+from src.data.message import user_already_exists, not_enough_data
+
+from src.api.headers import HEADERS
+from src.api.urls import create_user_url
+from src.api.create_new_user import register_new_user_and_return_response
 
 
 class TestCreateUser:

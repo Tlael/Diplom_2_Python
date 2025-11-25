@@ -1,8 +1,9 @@
 import allure
 import requests
 
-from resources.message import not_auth
-from resources.urls import get_order_user_url
+from src.data.message import not_auth
+
+from src.api.urls import get_order_user_url
 
 
 class TestOrders:

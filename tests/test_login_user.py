@@ -3,10 +3,11 @@ import json
 import allure
 import requests
 
-from resources.data_user import DATA
-from resources.headers import HEADERS
-from resources.message import email_or_pass_incorrect
-from resources.urls import login_user_url
+from src.data.data_user import DATA
+from src.data.message import email_or_pass_incorrect
+
+from src.api.headers import HEADERS
+from src.api.urls import login_user_url
 
 
 class TestLoginUser:

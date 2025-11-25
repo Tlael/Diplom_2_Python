@@ -1,4 +1,4 @@
-base_url = 'https://stellarburgers.nomoreparties.site/'
+base_url = 'https://stellarburgers.education-services.ru/'
 
 get_ingredients_url = base_url + 'api/ingredients'
 create_order_url = base_url + 'api/orders'

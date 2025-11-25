@@ -2,11 +2,12 @@ import json
 import allure
 import requests
 
-from resources.change_data_user import save_and_restore
-from resources.data_user import DATA
-from resources.headers import HEADERS
-from resources.message import not_auth
-from resources.urls import get_user_url
+from src.data.change_data_user import save_and_restore
+from src.data.data_user import DATA
+from src.data.message import not_auth
+
+from src.api.headers import HEADERS
+from src.api.urls import get_user_url
 
 
 class TestChangeUserData:

@@ -2,7 +2,7 @@ import requests
 import random
 import string
 
-from resources.urls import create_user_url
+from src.api.urls import create_user_url
 
 
 # Генерация случайной строки из букв нижнего регистра

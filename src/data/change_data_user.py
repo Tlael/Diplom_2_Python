@@ -3,8 +3,8 @@ from copy import deepcopy
 
 import requests
 
-from resources.headers import HEADERS
-from resources.urls import get_user_url
+from src.api.headers import HEADERS
+from src.api.urls import get_user_url
 
 
 def save_and_restore(authenticated_user, field_to_update, new_value):

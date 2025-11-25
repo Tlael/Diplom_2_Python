@@ -2,9 +2,10 @@ import pytest
 import json
 import requests
 
-from resources.data_user import DATA
-from resources.headers import HEADERS
-from resources.urls import login_user_url
+from src.data.data_user import DATA
+
+from src.api.headers import HEADERS
+from src.api.urls import login_user_url
 
 @pytest.fixture
 def authenticated_user(scope="session"):
